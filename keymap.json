@@ -9,7 +9,11 @@
   {
     "context": "Workspace",
     "bindings": {
-      "shift shift": "file_finder::Toggle"
+      "shift shift": "file_finder::Toggle",
+      "cmd-b": "workspace::ToggleRightDock",
+      "ctrl-`": "workspace::ToggleBottomDock",
+      "cmd-g": "git_panel::FocusEditor",
+      "ctrl-shift-g": null
     }
   },
   {
