@@ -16,9 +16,14 @@
   "outline_panel": {
     "dock": "right"
   },
+  "toolbar": {
+    "breadcrumbs": true,
+    "selections_menu": true
+  },
   "collaboration_panel": {
     "dock": "right"
   },
+  "relative_line_numbers": true,
   "icon_theme": "Material Icon Theme",
   "vim_mode": true,
   "ui_font_size": 14,
@@ -36,6 +41,6 @@
     "font_family": "Ubuntu Mono"
   },
   "experimental.theme_overrides": {
-    "editor.document_highlight.read_background": "#403f3f"
+    // "editor.document_highlight.read_background": "#403f3f"
   }
 }
