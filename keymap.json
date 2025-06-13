@@ -15,7 +15,8 @@
       "cmd-g": "git_panel::FocusEditor",
       "ctrl-shift-g": null,
       "cmd-n": null,
-      "cmd-shift-n": "workspace::NewFile"
+      "cmd-shift-n": "workspace::NewFile",
+      "cmd-shift-g": "git::Diff"
     }
   },
   {
