@@ -43,9 +43,6 @@
   "experimental.theme_overrides": {
     "editor.document_highlight.read_background": "#403f3f"
   },
-  "features": {
-    "inline_completion_provider": "none"
-  },
   "diagnostics": {
     "button": true,
     "include_warnings": true,
