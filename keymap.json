@@ -29,6 +29,7 @@
     "context": "Editor",
     "bindings": {
       "shift-k": "editor::Hover",
+      "cmd-shift-k": "editor::ShowEditPrediction",
       "gd": "editor::GoToDefinition",
       "cmd-j": "pane::ActivatePrevItem",
       "cmd-k": "pane::ActivateNextItem",
