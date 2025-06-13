@@ -40,9 +40,19 @@
     "cursor_shape": "block",
     "font_family": "Ubuntu Mono"
   },
+  "languages": {
+    "Python": {
+      "format_on_save": "off",
+      "language_servers": ["ruff"]
+    }
+  },
   "experimental.theme_overrides": {
     "editor.document_highlight.read_background": "#403f3f"
   },
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "show_completion_documentation": true,
   "diagnostics": {
     "button": true,
     "include_warnings": true,
