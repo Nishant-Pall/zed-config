@@ -65,5 +65,6 @@
       "max_severity": null
     },
     "cargo": null
-  }
+  },
+  "unnecessary_code_fade": 0.6
 }
