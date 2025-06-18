@@ -16,7 +16,9 @@
       "ctrl-shift-g": null,
       "cmd-n": null,
       "cmd-shift-n": "workspace::NewFile",
-      "cmd-shift-g": "git::Diff"
+      "cmd-shift-g": "git::Diff",
+      "cmd-j": "pane::ActivatePrevItem",
+      "cmd-k": "pane::ActivateNextItem"
     }
   },
   {
@@ -29,12 +31,11 @@
   {
     "context": "Editor",
     "bindings": {
-      "shift-k": "editor::Hover",
+      // "shift-k": "editor::Hover",
       "cmd-shift-k": "editor::ShowEditPrediction",
       "gd": "editor::GoToDefinition",
-      "cmd-j": "pane::ActivatePrevItem",
-      "cmd-k": "pane::ActivateNextItem",
-      "cmd-n": null
+      "cmd-n": null,
+      "cmd-shift-g": "git::Diff"
     }
   },
   {

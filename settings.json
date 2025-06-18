@@ -46,8 +46,9 @@
       "language_servers": ["ruff"]
     }
   },
+  "hover_popover_enabled": true,
   "experimental.theme_overrides": {
-    "editor.document_highlight.read_background": "#403f3f"
+    // "editor.document_highlight.read_background": "#403f3f"
   },
   "features": {
     "edit_prediction_provider": "none"
@@ -57,9 +58,12 @@
     "button": true,
     "include_warnings": true,
     "inline": {
-      "enabled": false,
+      "enabled": true,
+      "update_debounce_ms": 150,
       "padding": 4,
-      "min_column": 0
-    }
+      "min_column": 0,
+      "max_severity": null
+    },
+    "cargo": null
   }
 }
