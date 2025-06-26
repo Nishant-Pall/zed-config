@@ -48,7 +48,7 @@
   },
   "hover_popover_enabled": true,
   "experimental.theme_overrides": {
-    "editor.document_highlight.read_background": "#5c5959"
+    // "editor.document_highlight.read_background": "#5c5959"
   },
   "features": {
     "edit_prediction_provider": "none"
