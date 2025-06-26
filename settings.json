@@ -67,5 +67,8 @@
     "cargo": null
   },
   "unnecessary_code_fade": 0.6,
-  "minimap": { "display_in": "active_editor" }
+  "minimap": { "display_in": "active_editor" },
+  "dev": {
+    "lsp_document_colors": "background"
+  }
 }
