@@ -46,6 +46,18 @@
     "Python": {
       "format_on_save": "off",
       "language_servers": ["ruff"]
+    },
+    "Vue.js": {
+      "formatter": [
+        {
+          "code_actions": {
+            "source.fixAll.eslint": true
+          }
+        }
+      ]
+    },
+    "language-you-want-to-disable-linked-editing-for": {
+      "linked_edits": true
     }
   },
   "hover_popover_enabled": true,
@@ -72,5 +84,8 @@
   "minimap": { "display_in": "active_editor" },
   "dev": {
     "lsp_document_colors": "background"
+  },
+  "vim": {
+    "toggle_relative_line_numbers": true
   }
 }
