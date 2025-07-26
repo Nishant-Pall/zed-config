@@ -7,10 +7,14 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "debugger": {
+    "dock": "right"
+  },
   "project_panel": {
     "dock": "right",
     "ui_font_size": 11,
-    "ui_line_height": 1.2
+    "ui_line_height": 1.2,
+    "sticky_scroll": true
   },
   "ui_font_size": 14,
   "git_panel": {
@@ -44,8 +48,8 @@
   },
   "languages": {
     "Python": {
-      "format_on_save": "off",
-      "language_servers": ["ruff"]
+      "format_on_save": "on",
+      "language_servers": ["pyright"]
     },
     "language-you-want-to-disable-linked-editing-for": {
       "linked_edits": true
@@ -77,6 +81,7 @@
     "lsp_document_colors": "background"
   },
   "vim": {
-    "toggle_relative_line_numbers": true
+    "toggle_relative_line_numbers": true,
+    "use_system_clipboard": "never"
   }
 }

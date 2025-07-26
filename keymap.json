@@ -12,13 +12,12 @@
       "shift shift": "file_finder::Toggle",
       "cmd-b": "workspace::ToggleRightDock",
       "ctrl-`": "workspace::ToggleBottomDock",
-      "cmd-g": "git_panel::FocusEditor",
       "cmd-n": null,
       "cmd-shift-n": "workspace::NewFile",
       "cmd-shift-g": "git::Diff",
       "cmd-j": "pane::ActivatePrevItem",
       "cmd-k": "pane::ActivateNextItem",
-      "ctrl-shift-g": "git_panel::ToggleFocus"
+      "cmd-g": "git_panel::ToggleFocus"
     }
   },
   {
