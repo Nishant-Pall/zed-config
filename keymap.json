@@ -10,12 +10,12 @@
     "context": "Workspace",
     "bindings": {
       "shift shift": "file_finder::Toggle",
-      "cmd-b": "workspace::ToggleRightDock",
+      "cmd-b": "workspace::ToggleLeftDock",
       "ctrl-`": "workspace::ToggleBottomDock",
       "cmd-n": null,
       "cmd-shift-n": "workspace::NewFile",
       "cmd-shift-g": "git::Diff",
-      "cmd-j": "pane::ActivatePrevItem",
+      "cmd-j": "pane::ActivatePreviousItem",
       "cmd-k": "pane::ActivateNextItem",
       "cmd-g": "git_panel::ToggleFocus"
     }
@@ -56,7 +56,7 @@
     "context": "Editor && (showing_code_actions || showing_completions)",
     "bindings": {
       "enter": "editor::Newline",
-      "cmd-p": "editor::ContextMenuPrev",
+      "cmd-p": "editor::ContextMenuPrevious",
       "cmd-n": "editor::ContextMenuNext",
       "pageup": "editor::ContextMenuFirst",
       "pagedown": "editor::ContextMenuLast"

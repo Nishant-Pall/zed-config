@@ -7,28 +7,34 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "notification_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "left"
+  },
   "debugger": {
-    "dock": "right"
+    "dock": "left"
   },
   "project_panel": {
-    "dock": "right",
+    "dock": "left",
     "ui_font_size": 11,
     "ui_line_height": 1.2,
     "sticky_scroll": true
   },
   "ui_font_size": 14,
   "git_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "outline_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "toolbar": {
     "breadcrumbs": true,
     "selections_menu": true
   },
   "collaboration_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "relative_line_numbers": true,
   "icon_theme": "Material Icon Theme",
@@ -43,6 +49,7 @@
     "dark": "Gruvbox Dark Hard"
   },
   "terminal": {
+    "dock": "bottom",
     "cursor_shape": "block",
     "font_family": "Ubuntu Mono"
   },
