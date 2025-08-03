@@ -8,33 +8,33 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "notification_panel": {
-    "dock": "left"
+    "dock": "right"
   },
   "agent": {
-    "dock": "left"
+    "enabled": false
   },
   "debugger": {
-    "dock": "left"
+    "dock": "right"
   },
   "project_panel": {
-    "dock": "left",
+    "dock": "right",
     "ui_font_size": 11,
     "ui_line_height": 1.2,
     "sticky_scroll": true
   },
   "ui_font_size": 14,
   "git_panel": {
-    "dock": "left"
+    "dock": "right"
   },
   "outline_panel": {
-    "dock": "left"
+    "dock": "right"
   },
   "toolbar": {
     "breadcrumbs": true,
     "selections_menu": true
   },
   "collaboration_panel": {
-    "dock": "left"
+    "dock": "right"
   },
   "relative_line_numbers": true,
   "icon_theme": "Material Icon Theme",
