@@ -49,7 +49,11 @@
       "cmd-7": ["pane::ActivateItem", 6],
       "cmd-8": ["pane::ActivateItem", 7],
       "cmd-9": ["pane::ActivateItem", 8],
-      "cmd-0": "pane::ActivateLastItem"
+      "cmd-0": "pane::ActivateLastItem",
+      "cmd-k h": ["workspace::ActivatePaneInDirection", "Left"],
+      "cmd-k l": ["workspace::ActivatePaneInDirection", "Right"],
+      "cmd-k j": ["workspace::ActivatePaneInDirection", "Up"],
+      "cmd-k k": ["workspace::ActivatePaneInDirection", "Down"]
     }
   },
   {
