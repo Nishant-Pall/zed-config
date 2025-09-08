@@ -7,9 +7,6 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "status_bar": {
-    "active_language_button": true
-  },
   "context_servers": {},
   "notification_panel": {
     "dock": "right"
@@ -22,7 +19,7 @@
   },
   "project_panel": {
     "dock": "right",
-    "ui_font_size": 11,
+    "ui_font_size": 12,
     "ui_line_height": 1.2,
     "sticky_scroll": true
   },
@@ -67,9 +64,6 @@
     }
   },
   "hover_popover_enabled": true,
-  "experimental.theme_overrides": {
-    // "editor.document_highlight.read_background": "#5c5959"
-  },
   "features": {
     "edit_prediction_provider": "none"
   },
@@ -94,5 +88,15 @@
   "vim": {
     "toggle_relative_line_numbers": true,
     "use_system_clipboard": "never"
+  },
+  "experimental.theme_overrides": {
+    "editor.background": "#1d2021",
+    "title_bar.background": "#282828",
+    "panel.background": "#282828",
+    "tab_bar.background": "#282828",
+    "status_bar.background": "#282828"
+    // "tab.active_background": "#282828",
+    // "tab.inactive_background": "#1d2021"
+    // "editor.document_highlight.read_background": "#5c5959"
   }
 }
