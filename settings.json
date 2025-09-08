@@ -94,7 +94,8 @@
     "title_bar.background": "#282828",
     "panel.background": "#282828",
     "tab_bar.background": "#282828",
-    "status_bar.background": "#282828"
+    "status_bar.background": "#282828",
+    "editor.document_highlight.bracket_background": "#5c5959"
     // "tab.active_background": "#282828",
     // "tab.inactive_background": "#1d2021"
     // "editor.document_highlight.read_background": "#5c5959"
