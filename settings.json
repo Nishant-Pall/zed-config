@@ -19,8 +19,6 @@
   },
   "project_panel": {
     "dock": "right",
-    "ui_font_size": 12,
-    "ui_line_height": 1.2,
     "sticky_scroll": true
   },
   "ui_font_size": 14,
@@ -90,7 +88,7 @@
     "use_system_clipboard": "never"
   },
   "experimental.theme_overrides": {
-    "editor.background": "#1d2021",
+    "editor.background": "#1d2020",
     "title_bar.background": "#282828",
     "panel.background": "#282828",
     "tab_bar.background": "#282828",

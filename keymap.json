@@ -17,7 +17,8 @@
       "cmd-shift-g": "git::Diff",
       "cmd-j": "pane::ActivatePreviousItem",
       "cmd-k": "pane::ActivateNextItem",
-      "cmd-g": "git_panel::ToggleFocus"
+      "cmd-g": "git_panel::ToggleFocus",
+      "alt-t": ["task::Spawn", { "task_name": "Shell at Buffer CWD" }]
     }
   },
   {
