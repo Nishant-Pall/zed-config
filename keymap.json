@@ -18,7 +18,11 @@
       "cmd-j": "pane::ActivatePreviousItem",
       "cmd-k": "pane::ActivateNextItem",
       "cmd-g": "git_panel::ToggleFocus",
-      "alt-t": ["task::Spawn", { "task_name": "Shell at Buffer CWD" }]
+      "alt-t": ["task::Spawn", { "task_name": "Shell at Buffer CWD" }],
+      "ctrl-w h": "workspace::ActivatePaneLeft",
+      "ctrl-w j": "workspace::ActivatePaneDown",
+      "ctrl-w k": "workspace::ActivatePaneUp",
+      "ctrl-w l": "workspace::ActivatePaneRight"
     }
   },
   {
