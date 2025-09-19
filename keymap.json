@@ -1,0 +1,77 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "shift shift": "file_finder::Toggle",
+      "cmd-b": "workspace::ToggleRightDock",
+      "ctrl-`": "workspace::ToggleBottomDock",
+      "cmd-n": null,
+      "cmd-shift-n": "workspace::NewFile",
+      "cmd-shift-g": "git::Diff",
+      "cmd-j": "pane::ActivatePreviousItem",
+      "cmd-k": "pane::ActivateNextItem",
+      "cmd-g": "git_panel::ToggleFocus",
+      "alt-t": ["task::Spawn", { "task_name": "Shell at Buffer CWD" }]
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "v": "project_panel::OpenSplitVertical",
+      "o": "project_panel::OpenSplitHorizontal"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      "j k": ["workspace::SendKeystrokes", "escape"],
+      "k k ": ["workspace::SendKeystrokes", "escape O"]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      // "shift-k": "editor::Hover",
+      "cmd-shift-k": "editor::ShowEditPrediction",
+      "gd": "editor::GoToDefinition",
+      "cmd-n": null,
+      "cmd-shift-g": "git::Diff"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-1": ["pane::ActivateItem", 0],
+      "cmd-2": ["pane::ActivateItem", 1],
+      "cmd-3": ["pane::ActivateItem", 2],
+      "cmd-4": ["pane::ActivateItem", 3],
+      "cmd-5": ["pane::ActivateItem", 4],
+      "cmd-6": ["pane::ActivateItem", 5],
+      "cmd-7": ["pane::ActivateItem", 6],
+      "cmd-8": ["pane::ActivateItem", 7],
+      "cmd-9": ["pane::ActivateItem", 8],
+      "cmd-0": "pane::ActivateLastItem",
+      "cmd-shift-k h": "workspace::ActivatePaneLeft",
+      "cmd-shift-k l": "workspace::ActivatePaneRight",
+      "cmd-shift-k j": "workspace::ActivatePaneUp",
+      "cmd-shift-k k": "workspace::ActivatePaneDown"
+    }
+  },
+  {
+    "context": "Editor && (showing_code_actions || showing_completions)",
+    "bindings": {
+      "enter": "editor::Newline",
+      "cmd-p": "editor::ContextMenuPrevious",
+      "cmd-n": "editor::ContextMenuNext",
+      "pageup": "editor::ContextMenuFirst",
+      "pagedown": "editor::ContextMenuLast"
+    }
+  }
+]
