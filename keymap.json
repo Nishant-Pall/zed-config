@@ -10,7 +10,8 @@
     "context": "Workspace",
     "bindings": {
       "shift shift": "file_finder::Toggle",
-      "cmd-b": "workspace::ToggleRightDock",
+      // "cmd-b": "workspace::ToggleRightDock",
+      "cmd-b": "workspace::ToggleLeftDock",
       "ctrl-`": "workspace::ToggleBottomDock",
       "cmd-n": null,
       "cmd-shift-n": "workspace::NewFile",

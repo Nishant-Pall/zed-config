@@ -9,39 +9,41 @@
 {
   "context_servers": {},
   "notification_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "agent": {
     "enabled": false
   },
   "debugger": {
-    "dock": "right"
+    "dock": "left"
   },
   "project_panel": {
-    "dock": "right",
+    "dock": "left",
     "sticky_scroll": true
   },
   "ui_font_size": 14,
   "git_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "outline_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "toolbar": {
     "breadcrumbs": true,
     "selections_menu": true
   },
   "collaboration_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "relative_line_numbers": true,
   "icon_theme": "Material Icon Theme",
   "vim_mode": true,
   "buffer_font_size": 12.0,
   "ui_font_family": "Ubuntu Mono",
+  "ui_font_weight": 900,
   "show_completions_on_input": true,
   "buffer_font_family": "Ubuntu Mono",
+  "buffer_font_weight": 900,
   "theme": {
     "mode": "system",
     "light": "One Light",
