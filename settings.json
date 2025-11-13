@@ -35,15 +35,13 @@
   "collaboration_panel": {
     "dock": "left"
   },
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "icon_theme": "Material Icon Theme",
   "vim_mode": true,
-  "buffer_font_size": 12.0,
+  "buffer_font_size": 14.0,
   "ui_font_family": "Ubuntu Mono",
-  "ui_font_weight": 900,
   "show_completions_on_input": true,
   "buffer_font_family": "Ubuntu Mono",
-  "buffer_font_weight": 900,
   "theme": {
     "mode": "system",
     "light": "One Light",
@@ -55,9 +53,27 @@
     "font_family": "Ubuntu Mono"
   },
   "languages": {
+    "JavaScript": {
+      "format_on_save": "on",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "Vue.js": {
+      "format_on_save": "on",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
     "Python": {
       "format_on_save": "on",
-      "language_servers": ["pyright"]
+      "language_servers": ["pyright"],
+      "formatter": {
+        "external": {
+          "command": "black",
+          "arguments": ["--stdin-filename", "{buffer_path}", "-"]
+        }
+      }
     },
     "language-you-want-to-disable-linked-editing-for": {
       "linked_edits": true
