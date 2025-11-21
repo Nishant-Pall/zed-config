@@ -115,5 +115,8 @@
     // "tab.active_background": "#282828",
     // "tab.inactive_background": "#1d2021"
     // "editor.document_highlight.read_background": "#5c5959"
+  },
+  "sticky_scroll": {
+    "enabled": true
   }
 }
