@@ -7,12 +7,16 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "title_bar": {
+    "show_menus": true,
+    "show_branch_icon": true
+  },
   "context_servers": {},
   "notification_panel": {
     "dock": "left"
   },
   "agent": {
-    "enabled": false
+    "enabled": true
   },
   "debugger": {
     "dock": "left"
@@ -52,6 +56,7 @@
     "cursor_shape": "block",
     "font_family": "Ubuntu Mono"
   },
+  "colorize_brackets": true,
   "languages": {
     "JavaScript": {
       "format_on_save": "on",
