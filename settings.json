@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "hover_popover_delay": 100,
   "title_bar": {
     "show_menus": true,
     "show_branch_icon": true
