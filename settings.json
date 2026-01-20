@@ -7,38 +7,42 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "file_finder": {
+    "modal_max_width": "xlarge"
+  },
   "hover_popover_delay": 300,
   "title_bar": {
     "show_menus": true,
-    "show_branch_icon": true
+    "show_branch_icon": true,
   },
   "context_servers": {},
   "notification_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "agent": {
-    "enabled": true
+    "enabled": true,
   },
   "debugger": {
-    "dock": "left"
+    "dock": "left",
   },
   "project_panel": {
+    "default_width": 240.0,
     "dock": "left",
-    "sticky_scroll": true
+    "sticky_scroll": true,
   },
   "ui_font_size": 14,
   "git_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "outline_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "toolbar": {
     "breadcrumbs": true,
-    "selections_menu": true
+    "selections_menu": true,
   },
   "collaboration_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "relative_line_numbers": "enabled",
   "icon_theme": "Material Icon Theme",
@@ -50,26 +54,38 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Gruvbox Dark Hard"
+    "dark": "Gruvbox Dark Hard",
   },
   "terminal": {
+    "toolbar": {
+      "breadcrumbs": false
+    },
     "dock": "bottom",
     "cursor_shape": "block",
-    "font_family": "Ubuntu Mono"
+    "font_family": "Ubuntu Mono",
   },
   "colorize_brackets": true,
   "languages": {
     "JavaScript": {
       "format_on_save": "on",
       "code_actions_on_format": {
-        "source.fixAll.eslint": true
-      }
+        "source.fixAll.eslint": true,
+      },
     },
     "Vue.js": {
       "format_on_save": "on",
+      "colorize_brackets": false,
+      "inlay_hints": {
+        "enabled": true,
+        "show_other_hints": true,
+        "show_parameter_hints": true,
+      },
+      "prettier": {
+        "allowed": true,
+      },
       "code_actions_on_format": {
-        "source.fixAll.eslint": true
-      }
+        "source.fixAll.eslint": true,
+      },
     },
     "Python": {
       "format_on_save": "on",
@@ -77,17 +93,25 @@
       "formatter": {
         "external": {
           "command": "black",
-          "arguments": ["--stdin-filename", "{buffer_path}", "-"]
-        }
-      }
+          "arguments": ["--stdin-filename", "{buffer_path}", "-"],
+        },
+      },
+    },
+    "JSON": {
+      "formatter": {
+        "external": {
+          "command": "jq",
+          "arguments": [],
+        },
+      },
     },
     "language-you-want-to-disable-linked-editing-for": {
-      "linked_edits": true
-    }
+      "linked_edits": true,
+    },
   },
   "hover_popover_enabled": true,
   "features": {
-    "edit_prediction_provider": "none"
+    "edit_prediction_provider": "none",
   },
   "show_completion_documentation": true,
   "diagnostics": {
@@ -98,18 +122,18 @@
       "update_debounce_ms": 150,
       "padding": 4,
       "min_column": 0,
-      "max_severity": null
+      "max_severity": null,
     },
-    "cargo": null
+    "cargo": null,
   },
   "unnecessary_code_fade": 0.6,
   "minimap": { "display_in": "active_editor" },
   "dev": {
-    "lsp_document_colors": "background"
+    "lsp_document_colors": "background",
   },
   "vim": {
     "toggle_relative_line_numbers": true,
-    "use_system_clipboard": "never"
+    "use_system_clipboard": "never",
   },
   "experimental.theme_overrides": {
     "editor.background": "#1d2020",
@@ -117,12 +141,12 @@
     "panel.background": "#282828",
     "tab_bar.background": "#282828",
     "status_bar.background": "#282828",
-    "editor.document_highlight.bracket_background": "#5c5959"
+    "editor.document_highlight.bracket_background": "#5c5959",
     // "tab.active_background": "#282828",
     // "tab.inactive_background": "#1d2021"
     // "editor.document_highlight.read_background": "#5c5959"
   },
   "sticky_scroll": {
-    "enabled": true
-  }
+    "enabled": false,
+  },
 }
